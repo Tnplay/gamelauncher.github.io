@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Título do site (apenas na aba) -->
   <title>WeekNews</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
   <center>
+    <!-- Título do site -->
   <h1>WeekNews</h1>
   </center>
   <center>
+    <!-- Subtítulo -->
   <h3>Notícias, eventos e atualizações da semana</h3>
   </center>
   <center>
+    <!-- Separador -->
     <img src="http://www.cgbsoftware.com/images/separator.png" width = 400 height= 20/>
   </center>
+  <!-- Mostra as notícias da semana: -->
   <h4>Notícia 1:</h4>
   <center>
   <img src="http://www.perfeitta.com.br/includes/img/sku_sem_imagem.png" width = 400 height = 400/>
@@ -27,10 +32,11 @@
     <center>
     <img src="http://www.perfeitta.com.br/includes/img/sku_sem_imagem.png" width = 400 height = 400/>
     </center>
-<h4>Notícia 3:</h4>
+    <h4>Notícia 4:</h4>
     <center>
     <img src="http://www.perfeitta.com.br/includes/img/sku_sem_imagem.png" width = 400 height = 400/>
     </center>
+  <!-- Mostra as atualizações da semana: -->
 <p>Atualizações:</p>
 <ul>
 <li>Novo launcher!!!</li>
@@ -40,23 +46,11 @@
 <li>Nova alocação do servidor</li>
 <li>Sistema de feedback para usuários em progresso</li>
 </ul>
+  <!-- Área do script -->
   <script>
+    //Mostra um pop-up com a versão oficial do WeekNews
   var Version = ("V 1.0.0");
-  var Error = ("Erro desconhecido, estamos trabalhando para superar isto")
-  var Online = false;
-  var On = ("Status: WeekNews ON");
-  var Off = ("Status: WeekNews OFF, volte mais tarde");
-    
 window.alert("Versão atual do WeekNews: " + Version);
-if (Online = true) {
-   window.alert(On);
-} else if (Online = false) {
-   window.alert(Off);
-  // Nao usar esse código sem a permissão do desenvolvedor:
-  // Close.();  
-} else {
-  windows.alert(Error)
-}
 </script>
 </body>
 </html>
