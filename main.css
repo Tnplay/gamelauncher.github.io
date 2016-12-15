@@ -7,7 +7,7 @@ html, body {
 
 h1 {
   font-size: 48px;
-  text-shadow: black 0.01em 0.01em 0.01em
+  text-shadow: 0.1em 0.1em #333
 }
 
 p {
