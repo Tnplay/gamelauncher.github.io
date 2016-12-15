@@ -48,9 +48,19 @@
 </ul>
   <!-- Área do script -->
   <script>
-    //Mostra um pop-up com a versão oficial do WeekNews
   var Version = ("V 1.0.0");
-window.alert("Versão atual do WeekNews: " + Version);
+  var Online = true;
+  var On = ("Status: WeekNews ON");
+  var Off = ("Status: WeekNews OFF, volte mais tarde");
+  var Error = ("Erro critico");
+  if (Online === true) {
+   window.alert(On);
+} else if(Online === false) {
+   window.alert(Off);
+} else {
+  window.alert(Error);
+}
+window.alert("Verso atual do WeekNews: " + Version);
 </script>
 </body>
 </html>
