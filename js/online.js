@@ -4,10 +4,10 @@
   var Off = ("Status: WeekNews OFF, volte mais tarde");
   var Error = ("Erro critico");
   if (Online === true) {
-   console.log(On);
+   window.alert(On);
 } else if(Online === false) {
-   console.log(Off);
+   window.alert(Off);
 } else {
-  console.log(Error);
+  window.alert(Error);
 }
-console.log("Verso atual do WeekNews: " + Version);
+window.alert("Verso atual do WeekNews: " + Version);
