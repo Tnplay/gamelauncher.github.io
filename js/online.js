@@ -7,7 +7,9 @@
    window.alert(On);
 } else if(Online === false) {
    window.alert(Off);
-   close.()
+  //código em fase de testes beta:
+  //close.()
+  //usar apenas com permissão
 } else {
   window.alert(Error);
 }
