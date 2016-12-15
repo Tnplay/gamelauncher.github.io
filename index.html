@@ -46,11 +46,14 @@
   var Online = false;
   var On = ("Status: WeekNews ON");
   var Off = ("Status: WeekNews OFF, volte mais tarde");
+    
 window.alert("Versão atual do WeekNews: " + Version);
 if (Online = true) {
    window.alert(On);
 } else if (Online = false) {
    window.alert(Off);
+  // Nao usar esse código sem a permissão do desenvolvedor:
+  // Close.();  
 } else {
   windows.alert(Error)
 }
