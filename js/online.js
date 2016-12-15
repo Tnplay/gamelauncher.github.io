@@ -7,6 +7,7 @@
    window.alert(On);
 } else if(Online === false) {
    window.alert(Off);
+   close.()
 } else {
   window.alert(Error);
 }
