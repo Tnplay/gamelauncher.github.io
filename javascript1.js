@@ -1,6 +1,6 @@
 var Version = ("V 1.0.0");
     var Info = ("Criado por Tnplay");
-  var Online = true;
+  var Online = false;
   var On = ("Status: WeekNews ON");
   var Off = ("Status: WeekNews OFF, volte mais tarde");
   var Error = ("Erro critico");
@@ -8,6 +8,7 @@ var Version = ("V 1.0.0");
    window.alert(On);
 } else if(Online === false) {
    window.alert(Off);
+    <a href="https://tnplay.github.io/error404.github.io/"></a>
    //código em fase de testes beta:
    //close.()
    //não usar sem permissão
