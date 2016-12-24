@@ -1,6 +1,6 @@
 var Version = ("V 1.0.0");
     var Info = ("Criado por Tnplay");
-  var Online = false;
+  var Online = true;
   var On = ("Status: WeekNews ON");
   var Off = ("Status: WeekNews OFF, volte mais tarde");
   var Error = ("Erro critico");
